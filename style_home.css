@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* Gerais do projeto */
+
+body {
+  background-image: url('C:\\Users\\LS ADM\\Desktop\\Code\\Projeto LS\\assets\\Projeto\\img\\fiorino.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+*{
+  font-family: 'Poppins', sans-serif; 
+}
+
+#galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 5vh; /* Ajuste conforme necessário para posicionar mais acima */
+  margin-top: 10px; /* Ajuste conforme necessário para posicionar mais acima */
+  position: relative; /* Adicione esta linha se não estiver presente */
+  z-index: 1; /* Ajuste o valor conforme necessário */
+}
+
+.card {
+  width: 100%;
+  max-width: 600px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.titulo2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.row {
+  margin-top: 20px; /* Espaço entre as colunas */
+}
+
+.container {
+  padding: 70px, 0;
+}
+
+li {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Nav-bar */
+
+header, .navbar {
+  background-color: rgba(255, 255, 255, 0.653); /* Cor em RGBA com 80% de transparência */ /*rgba(38, 42, 46, 0.653);*/
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: white; /* Cor do ícone do botão quando a barra de navegação está em um estado 'dark' */
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 200px;
+}
+
+.navbar-brand {
+  padding: 0;
+  color: #000000;
+}
+
+#navbar-links a {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem .8rem;
+}
+
+
+.titulo {
+  color: rgb(0, 0, 0);
+  align-items: center;
+  order: 2;
+  font-weight: 500;
+}
+
+.titulo1 {
+  color: rgb(0, 0, 0);
+  align-items: center;
+  order: 2;
+  font-weight: 300;
+}
+
+.titulo2 {
+  font-weight: 500;
+}
+
+/* footer */
+
+.footer {
+  background-color: rgb(255, 255, 255); /* Cor em RGBA com 80% de transparência */ /*rgba(38, 42, 46, 0.8)*/
+  color: rgb(0, 0, 0);
+  width: 100%;
+  margin-top: auto;
+  font-weight: 550;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+  position: relative; /* Adicione esta linha se não estiver presente */
+  z-index: 0; /* Ajuste o valor conforme necessário */
+}
+@media (max-width: 850px) {
+  .titulo1, .footer {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  body {
+    background-image: url('C:\\Users\\LS ADM\\Desktop\\Code\\Projeto LS\\assets\\Projeto\\img\\wallpaper_mobile.png');
+  background-size: 100% auto; /* Ajusta a largura proporcionalmente à altura */
+  background-attachment: fixed; /* Mantém a imagem de fundo fixa durante o rolar */
+  background-position: center; /* Centraliza a imagem de fundo */
+  background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+    }
+    .card mx-auto, .card {
+      background-color: white !important;
+    }
+  }
+
+  @media (max-width: 1600px) {
+    .footer {
+      display: none;
+    }
+    }
+  
+
+.contato-rodape {
+  font-weight: 600;
+}
