@@ -5,7 +5,7 @@
 /* Gerais do projeto */
 
 body {
-  background-image: url(https://github.com/Vinicius199820/galeria-videos-bootstrap/blob/main/img/fiorino.png);
+  background-image: url('https://raw.githubusercontent.com/Vinicius199820/galeria-videos-bootstrap/main/img/fiorino.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@ header, .navbar {
 
 @media (max-width: 850px) {
   body {
-    background-image: url(https://github.com/Vinicius199820/galeria-videos-bootstrap/blob/main/img/wallpaper_mobile.png);
+  background-image: url('https://raw.githubusercontent.com/Vinicius199820/galeria-videos-bootstrap/main/img/wallpaper_mobile.png');
   background-size: 100% auto; /* Ajusta a largura proporcionalmente à altura */
   background-attachment: fixed; /* Mantém a imagem de fundo fixa durante o rolar */
   background-position: center; /* Centraliza a imagem de fundo */
