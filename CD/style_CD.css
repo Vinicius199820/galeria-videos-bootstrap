@@ -9,6 +9,7 @@ body {
   background-size: cover;
   background-position: center;
   display: flex;
+  background-repeat: no-repeat;
   flex-direction: column;
   min-height: 100vh;
 }
@@ -111,7 +112,6 @@ header,
     background-size: 100% auto; /* Ajusta a largura proporcionalmente à altura */
     background-attachment: fixed; /* Mantém a imagem de fundo fixa durante o rolar */
     background-position: center; /* Centraliza a imagem de fundo */
-    background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
   }
   .card mx-auto,
   .card {
